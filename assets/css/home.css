@@ -25,7 +25,6 @@ body{
 form{
     width:99.5%;
     height: auto;
-    border:2px solid cyan;
 }
 
 .size{
@@ -55,6 +54,10 @@ form{
     border:none;
     width: 80%;
     opacity: 0.7;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 .description:hover{
     background-color: #EAEDF0;
@@ -95,14 +98,18 @@ form{
     opacity: 0.7;
     padding-left: 6px;
     border: none;
+    background-color: transparent;
+    outline: none;
 }
 #date{
-    width: 80%;
+    width: 70%;
     font-size: 1rem;
     font-weight: bold;
     opacity: 0.7;
     padding-left: 6px;
     border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 /* Add and delete task */
@@ -110,7 +117,6 @@ form{
 .add-delete-container{
     height: 6rem;
     width: 100%;
-    border:2px solid brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +149,62 @@ form{
 }
 .delete-btn div i{
     margin-right: 10px;
-    margin-left: 4px;
+    margin-left: 8px;
 }
 .add-delete-container a{
     text-decoration: none;
+}
+
+/* Task */
+
+.task-container{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.task-container li{
+    width: 97%;
+    height: auto;
+    /* border:2px solid cyan; */
+    border-top: 2px solid #E9E9E9;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.task{
+    width: 70%;;
+    height: auto;
+}
+.task input{
+    display: inline-block;
+    vertical-align: top;
+}
+.task div{
+    display: inline-block;
+}
+
+.task-detail{
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.day{
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.box{
+    width: 15%;
+    height: 2rem;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: 8px;
+    overflow: hidden;
+    color: whitesmoke;
+    background-color: #F2A700;
+    border-radius: 4px;
 }

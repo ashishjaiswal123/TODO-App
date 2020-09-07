@@ -9,7 +9,9 @@ app.use('/',require('./routes/index'));
 app.set('view engine','ejs');
 app.set('views','views');
 
-app.use(express.static('assets'));
+
+
+app.use(express.static('assets')); //middleware
 
 app.listen(port,function(err){
     if(err){
