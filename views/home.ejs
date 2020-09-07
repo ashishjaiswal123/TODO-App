@@ -55,7 +55,7 @@
                 <% for(let i of todo_list){%>
                    <li>
                        <div class="task">
-                           <input type="checkbox" onClick="Javascript:window.location.href = '/delete-todo/?date= <%=i.date%>';" formmethod="GET">
+                           <input type="checkbox" onClick="Javascript:window.location.href = '/delete-todo/?id=<%=i.id%>';" formmethod="GET">
                            <div >
                                <span class="task-detail"> <%= i.description%> </span><br>
                                <span class="day"><i class="fas fa-calendar-alt"></i> <%=i.date%> </span>

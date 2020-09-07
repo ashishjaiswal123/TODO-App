@@ -4,6 +4,8 @@ const homeController = require('../controller/home_controller');
 const  route = require('./user');
 // const todoController = require('../controller/todo_controller');
 
+// const db = require('../config/mongoose');
+
 console.log('router is loaded');
 router.use(express.urlencoded());
 
