@@ -214,3 +214,34 @@ form{
     background-color: #F2A700;
     border-radius: 4px;
 }
+
+/* responsiveness */
+@media screen and (max-width:900px){
+    .todo-container{
+        width: 60vw;
+    }
+}
+@media screen and (max-width:550px){
+    .container{
+        width: 85vw;
+    }
+    .todo-container{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        width: 100vw;
+    }
+    .todo-container{
+        width: 100vw;
+    }
+}
+@media screen and (max-width:330px){
+   .category{
+       width: 40%;
+   }
+   .due-date{
+       width: 40%;
+   }
+}
