@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity=
+        "sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="\css\home.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo-container">
+              <form>
+                  <div class="heading size">
+                      <div>TODO App</div>
+                  </div>
+                  <div class="description size">
+                      <div>
+                      <div class="font-for-info">DESCRIPTION</div>
+                      <input type="text" name="description" placeholder="What do you need to do?">
+                      </div>
+                  </div>
+                  <div class="size">
+                      <div class="category description">
+                         <div>
+                             <div class="font-for-info">CATEGORY</div>
+                             <!-- <div class="font-for-info">Choose a category</div> -->
+                             <select name="category" id="select-opt">
+                                 <option value="" >Choose a category</option>
+                                 <option value="School">School</option>
+                                 <option value="Work">Work</option>
+                                 <option value="Personal">Personal</option>
+                                 <option value="Cleaning">Cleaning</option>
+                                 <option value="Others">Others</option>
+                             </select>
+                         </div>  
+                      </div>
+                      <div class="due-date description">
+                         <div>
+                             <div class="font-for-info">DUE DATE</div>
+                             <input type="date" id="date" name="due-date" value="" min="" max="2040-12-31">
+                         </div>   
+                      </div>
+                  </div>
+                  <div class="add-delete-container">
+                     <button class="add-btn clr"><i class="fas fa-plus"></i>ADD TASK</button>
+                     <a href=""><div class="delete-btn"><div><i class="fas fa-trash-alt"></i>DELETE TASKS</div></div></a>
+                  </div>
+              </form>
+               wjbk
+            </div>
+        </div>
+    </body>
+</html>

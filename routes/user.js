@@ -6,7 +6,4 @@ router.get('/profile',userController.user);
 
 
 
-
-
-
 module.exports =router;

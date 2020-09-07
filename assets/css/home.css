@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: #66666B;
+}
+.container{
+    width: 65vw;
+    height: auto;
+    background-color: #808080;
+    margin-top: 6vh;
+}
+.todo-container{
+    width: 40vw;
+    height:auto;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 12vh;
+    padding-bottom: 3rem;
+}
+
+/* TODO App header  */
+form{
+    width:99.5%;
+    height: auto;
+    border:2px solid cyan;
+}
+
+.size{
+    height: 3.4rem; 
+    width: 100%;
+    border-bottom: 2px solid #E9E9E9;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    text-shadow: 0px 1px 1px grey;   
+    margin-top: 1rem;
+}
+.heading div{
+    padding-top: 16px;
+}
+
+/* description */
+
+.description div{
+   padding-top: 4px;
+   padding-left: 12px;
+}
+.description div input{
+    padding-left:12px;
+    border:none;
+    width: 80%;
+    opacity: 0.7;
+}
+.description:hover{
+    background-color: #EAEDF0;
+}
+
+.font-for-info{
+    font-size: 0.7rem;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+/* category and due date */
+
+.category{
+    display: inline-block;
+    width: 48%;
+    height:100% ;
+    border-right: 2px solid #E9E9E9;
+}
+.due-date{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 50%;
+}
+.category:hover{
+    background-color: #EAEDF0;
+}
+.due-date:hover{
+    background-color: #EAEDF0;
+}
+#select-opt{
+    margin:0px;
+    padding: 0px;
+    width: 90%;
+    font-size: 0.7rem;
+    font-weight: bold;
+    opacity: 0.7;
+    padding-left: 6px;
+    border: none;
+}
+#date{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0.7;
+    padding-left: 6px;
+    border: none;
+}
+
+/* Add and delete task */
+
+.add-delete-container{
+    height: 6rem;
+    width: 100%;
+    border:2px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-btn{
+    margin: 2px;
+    width: 26%;
+    height: 3.4rem;
+    color: white;
+    font-size: 1rem;
+    background-color: #444444;
+    border:none;
+    border-radius: 4px;
+}
+.add-btn i{
+    margin-right: 10px;
+}
+.delete-btn{
+    margin: 2px;
+    width: 100%;
+    height: 3.4rem;
+    color: white;
+    font-size: 1rem;
+    background-color: red;
+    border:none;
+    border-radius: 4px;
+}
+.delete-btn div{
+    padding-top: 15px;
+}
+.delete-btn div i{
+    margin-right: 10px;
+    margin-left: 4px;
+}
+.add-delete-container a{
+    text-decoration: none;
+}
