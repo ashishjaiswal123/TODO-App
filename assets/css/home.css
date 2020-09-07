@@ -182,9 +182,12 @@ form{
 .task input{
     display: inline-block;
     vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .task div{
     display: inline-block;
+    
 }
 
 .task-detail{
@@ -196,6 +199,9 @@ form{
     color: grey;
     font-size: 0.8rem;
     font-weight: 500;
+}
+.day i{
+    margin-right: 8px;
 }
 .box{
     width: 15%;
