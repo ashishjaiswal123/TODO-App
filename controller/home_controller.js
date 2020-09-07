@@ -17,13 +17,13 @@ var todoList = [
     },
     {
         description : 'fee payment',
-        category : 'Scool',
+        category : 'School',
         date : '2020-05-06'
 
     },
     {
         description : 'fee payment',
-        category : 'Scool',
+        category : 'School',
         date : '2020-05-12'
 
     }

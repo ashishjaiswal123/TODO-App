@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity=
         "sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="\css\home.css">
+        
+        
+        
     </head>
     <body>
         <div class="container">
@@ -44,7 +47,7 @@
                       </div>
                   </div>
                   <div class="add-delete-container">
-                     <button class="add-btn clr" type="submit"><i class="fas fa-plus"></i>ADD TASK</button>
+                     <button id="add-button" class="add-btn clr" type="submit"><i class="fas fa-plus"></i>ADD TASK</button>
                      <a href="/"><div class="delete-btn"><div><i class="fas fa-trash-alt"></i>DELETE TASKS</div></div></a>
                   </div>
               </form>
@@ -58,7 +61,7 @@
                                <span class="day"><i class="fas fa-calendar-alt"></i> <%=i.date%> </span>
                            </div>
                        </div>
-                       <div class="box">
+                       <div class="box" >
                            <span> <%= i.category %> </span>
                        </div>
                    </li>
@@ -66,5 +69,7 @@
                </ul>
             </div>
         </div>
+      <script type="text/javascript" src="\js\home.js"></script>
+    </body>
     </body>
 </html>
